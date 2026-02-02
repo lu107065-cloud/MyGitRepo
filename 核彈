@@ -1,0 +1,12 @@
+import random
+核彈數量 = random.randint(1,10)
+print("核彈的數量是", 核彈數量)
+if 核彈數量 > 5:
+    print("核彈過多")
+    print("核彈發射")
+if 核彈數量 < 5:
+    print("核彈過少")
+    print("核彈製造")
+if 核彈數量 == 5:
+    print("核彈數量剛剛好")
+    print("核彈維持") 
